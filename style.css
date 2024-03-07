@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url(5ABDD140-4B21-4748-AECC-1AB777CCE4DB.jpeg);
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 70px;
+}
+.btnDiv,
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.btn {
+  width: 200px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(128, 128, 128, 0.479);
+  color: black;
+  cursor: pointer;
+  padding: 4px;
+}
+.city {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0 15px;
+}
+.icon {
+  font-size: 30px;
+}
+.btn:hover {
+  box-shadow: rgba(248, 245, 245, 0.56) 0px 22px 70px 4px;
+  transition: 0.5s;
+  scale: 1.1;
+  background: rgba(236, 197, 197, 0.439);
+}
+.inputText {
+  width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  outline: nones;
+  padding: 10px;
+  border-bottom: 2px solid blue;
+  text-align: center;
+}
+.info {
+  text-align: center;
+  font-size: 20px;
+}
+.info > p {
+  margin-top: 20px;
+}
+.temp {
+  font-size: 60px;
+  color: black;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0 15px;
+}
+.weatherInfo {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.weather {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  
+}
+.feeling {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.wind, .humidity{
+    padding: 0 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+    /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+}
